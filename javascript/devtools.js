@@ -1,0 +1,1 @@
+chrome.devtools.panels.create('Arcade Emulator', 'icons/icon.png', 'devpanel.html');

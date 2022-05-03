@@ -1,0 +1,24 @@
+{
+  "name": "Arcade Feu - Controls Emulator",
+  "description": "Arcade Feu - Controls Emulator",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "javascript/background.js"
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "tabs",
+    "storage", 
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "./icons/icon.png"
+  },
+  "devtools_page": "devtools.html"
+}
