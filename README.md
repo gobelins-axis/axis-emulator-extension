@@ -1,6 +1,6 @@
-# 🕹 Arcade Emulator Extension
+# 🕹 Axis Emulator Extension
 
-Chrome extension to emulate arcade controls.
+Chrome extension to emulate Axis Machine controls.
 
 ## Installing
 
